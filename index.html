@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid game</title>
+    
+    <link rel="stylesheet" href="normal.css">
+    
+</head>
+
+<body>
+    
+    <h1>
+        <b><i>
+                The grid puzzle - Enjoy the game!
+            </i>
+        </b>
+    </h1>
+    <div id="scoretab">
+        score: 0
+    </div>
+    <div id="timer">00:00:00</div>
+    <button id="reset" onclick="reload()">start</button>
+    <br>
+    </br>
+    <div class="required_grid">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <br>
+    </br>
+    <br>
+    </br>
+    
+        
+    
+     <div class="solve">         
+        <div class="sbox" onclick="move(0)"  ></div>
+        <div class="sbox" onclick="move(1)"  ></div>
+        <div class="sbox" onclick="move(2)"  ></div>
+        <div class="sbox" onclick="move(3)"  ></div>
+        <div class="sbox" onclick="move(4)"  ></div>
+        <div class="sbox" onclick="move(5)"  ></div>
+        <div class="sbox" onclick="move(6)" id='main' ></div>
+        <div class="sbox" onclick="move(7)" id='main' ></div>
+        <div class="sbox" onclick="move(8)" id='main' ></div>
+        <div class="sbox" onclick="move(9)"  ></div>
+        <div class="sbox" onclick="move(10)"  ></div>
+        <div class="sbox" onclick="move(11)" id='main' ></div>
+        <div class="sbox" onclick="move(12)" id='main' ></div>
+        <div class="sbox" onclick="move(13)" id='main' ></div>
+        <div class="sbox" onclick="move(14)"  ></div>
+        <div class="sbox" onclick="move(15)"  ></div>
+        <div class="sbox" onclick="move(16)" id='main' ></div>
+        <div class="sbox" onclick="move(17)" id='main' ></div>
+        <div class="sbox" onclick="move(18)" id='main' ></div>
+        <div class="sbox" onclick="move(19)"  ></div>
+        <div class="sbox" onclick="move(20)"  ></div>
+        <div class="sbox" onclick="move(21)"  ></div>
+        <div class="sbox" onclick="move(22)"  ></div>
+        <div class="sbox" onclick="move(23)"  ></div>
+        <div class="sbox" onclick="move(24)"  ></div>
+        
+                  
+    </div> 
+    <div class="reqs"></div>
+    <br>
+    </br>
+    <!-- <div id="wins">u win</div> -->
+    <button id="reset" onclick="reload()">
+        reset
+    </button>
+    <script src="t1.js">
+        
+    </script>
+</body>
+
+</html>
