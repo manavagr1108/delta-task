@@ -1,0 +1,16 @@
+body{
+    background-color: darkkhaki;
+}
+.normal
+{
+    /* margin-right: 500px ; */
+    max-width: 500px;
+    background-color: cyan;
+    border: 4px solid black ;
+    /* border-color:  blueviolet; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    font-size: x-large;
+}
